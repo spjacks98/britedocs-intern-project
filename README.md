@@ -74,3 +74,14 @@ Once you are done with the project:
  - You don't have to put everything in one template, you can break it out into multiple templates. The packaged web app provides a jinja helper statement `include` which allows you to pull in the contents of another template. Usage would look like `{% include 'Other_template' %}`. Just ensure that any new templates you add are added to the `templates` directory
  - You can use the `curl` terminal command to preview what any of the templates you've created look like, just change the `template_name` param
  - HTML tables are your friend
+ 
+ ## Approach
+    -I decided to break the project up into 2 templates: one for the style and one for the contents of the .json file.
+    -For loops were used to keep typing to a minimum as well as make things easier
+    -CSS styling was a little rough, but using % instead of actual numbers seems to have made things somewhat easier
+    -HTML Tables are amazing - they were used to make formatting the menu items easier
+    -I originally made a separate style template, but after running into some issues, I put it back in the main Menu file
+## Thoughts
+    -CSS is not a friend, but it isn't the worst thing ever
+    -The whole debacle with the rendering was very annoying, but when not worrying about that, the project was actually enjoyable
+    -Docker is an unattainable gift from God for us insignificant Windows 10 home users -- would have made this go much smoother
